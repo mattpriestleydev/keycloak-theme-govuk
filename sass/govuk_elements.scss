@@ -27,3 +27,11 @@ $path: "../vendor/govuk_frontend_toolkit/images/";// Path to Frontend Toolkit im
     display: inline;
   }
 }
+
+header#global-header #logo {
+  background: unset;
+
+  img {
+    visibility: visible;
+  }
+}
